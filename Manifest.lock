@@ -1,12 +1,29 @@
 PODS:
   - Masonry (1.1.0)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - YKLineChartView (0.2)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
 
 DEPENDENCIES:
   - Masonry
+  - ReactiveCocoa (~> 2.5)
+  - YKLineChartView
+  - YYKit (~> 1.0.9)
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  YKLineChartView: 6e3b6774242ba9badd122751e65b3940cb939fd6
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 0ad0d5687e4ccdbcb25ac45097ec82da9a65a360
+PODFILE CHECKSUM: c816c6de472b12d44f44b26fb6ccbc9ce4554a5e
 
 COCOAPODS: 1.4.0.beta.1
